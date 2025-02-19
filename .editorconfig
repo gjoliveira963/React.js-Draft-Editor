@@ -1,0 +1,23 @@
+# Define que este arquivo .editorconfig é a raiz da configuração, evitando a herança de configurações de diretórios superiores
+root = true
+
+# Inicia o bloco de configurações que será aplicado a todos os arquivos
+[*]
+# Define a codificação de caracteres dos arquivos como UTF-8, garantindo compatibilidade internacional
+charset = utf-8
+# Define o estilo de quebra de linha para LF (Line Feed), padrão em sistemas Unix/Linux
+end_of_line = lf
+# Especifica que a identação deverá ser feita utilizando espaços em vez de tabulações
+indent_style = space
+
+# Define a largura da tabulação como 2 espaços (relevante mesmo que não se use a tecla Tab diretamente)
+tab_width = 2
+# Define o tamanho da identação (recuo) como 2 espaços, promovendo consistência visual no código
+indent_size = 2
+# Estabelece que o comprimento máximo de cada linha de código será de 80 caracteres, incentivando a legibilidade
+max_line_length = 80
+
+# Garante que o arquivo termine com uma linha em branco, prática comum para evitar problemas em sistemas Unix
+insert_final_newline = true
+# Remove quaisquer espaços em branco desnecessários no final de cada linha, mantendo o código limpo
+trim_trailing_whitespace = true

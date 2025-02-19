@@ -1,0 +1,26 @@
+// ===========================================================================================
+// Arquivo de Configuração do TypeScript (Compilação)
+// -------------------------------------------------------------------------------------------
+
+{
+	// Estende uma configuração base para projetos Vite + React + TypeScript.
+	"extends": "@tsconfig/vite-react/tsconfig.json",
+
+	/**
+	 * Define configurações avançadas do compilador TypeScript,
+	 * permitindo personalizar como o código será analisado e convertido para JavaScript.
+	 */
+	"compilerOptions": {
+		// Garante que o uso de maiúsculas e minúsculas nos nomes de arquivos seja consistente.
+		"forceConsistentCasingInFileNames": true,
+
+		// Define o diretório base para a resolução de caminhos relativos.
+		"baseUrl": "./",
+
+		// Define atalhos para caminhos de importação dentro do projeto.
+		"paths": {
+			// Cria um alias "~" para referenciar a pasta "src" de forma mais curta.
+			"~/*": ["src/*"]
+		}
+	}
+}
