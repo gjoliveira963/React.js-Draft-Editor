@@ -93,4 +93,4 @@ Criar uma aplicação que permita:
 
 ## Link
 
-- [Link App Hospedado na Vercel](https://react-js-draft-editor.vercel.app/)
+- [Link do App Hospedado na Vercel](https://react-js-draft-editor.vercel.app/)
